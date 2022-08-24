@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,6 +16,10 @@ body {
 
 .header__logo {
     height: 1.4rem;
+    cursor: pointer;
+}
+
+.header__item {
     cursor: pointer;
 }
 
@@ -70,4 +78,115 @@ body {
     width: 1rem;
     margin-left: 0.7rem;
     cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0 5rem;
+}
+
+.container-1 {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 100%;
+    background-color: #e60023;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.element--1 {
+    background-image: url(/intro_proyecto-final/image/pexels-creative-vix-9754.jpg);
+    grid-row: 1/3;
+}
+
+.element--2 {
+    background-image: url(/intro_proyecto-final/image/pexels-deva-darshan-1173777.jpg);
+    grid-row: 1/4;
+}
+
+.element--3 {
+    background-image: url(/intro_proyecto-final/image/pexels-francesco-ungaro-1671325.jpg);
+    grid-row: 1/2;
+}
+.element--4 {
+    background-image: url(/intro_proyecto-final/image/pexels-johannes-plenio-1423600.jpg);
+    grid-row: 1/3;
+}
+.element--5 {
+    background-image: url(/intro_proyecto-final/image/pexels-kaique-rocha-775201.jpg);
+    grid-row: 1/4;
+}
+.element--6 {
+    background-image: url(/intro_proyecto-final/image/pexels-lumn-167698.jpg);
+    grid-row: 1/3;
+}
+.element--7 {
+    background-image: url(/intro_proyecto-final/image/pexels-matthew-montrone-1179229.jpg);
+    grid-row: 1/2;
+}
+.element--8 {
+    background-image: url(/intro_proyecto-final/image/pexels-nejc-košir-338936.jpg);
+    grid-row: 3/5;
+}
+.element--9 {
+    background-image: url(/intro_proyecto-final/image/pexels-rudolf-jakkel-418831.jpg);
+    grid-row: 4/6;
+}
+.element--10 {
+    background-image: url(/intro_proyecto-final/image/pexels-veeterzy-38136.jpg);
+    grid-row: 2/5;
+}
+.element--11 {
+    background-image: url(/intro_proyecto-final/image/pexels-matthew-montrone-1179229.jpg);
+    grid-row: 3/6;
+}
+.element--12 {
+    background-image: url(/intro_proyecto-final/image/pexels-kaique-rocha-775201.jpg);
+    grid-row: 5/6;
+}
+.element--13 {
+    background-image: url(/intro_proyecto-final/image/pexels-veeterzy-38136.jpg);
+    grid-row: 4/6;
+}
+.element--14 {
+    background-image: url(/intro_proyecto-final/image/pexels-creative-vix-9754.jpg);
+    grid-row: 5/6;
+}
+.element--15 {
+    background-image: url(/intro_proyecto-final/image/pexels-rudolf-jakkel-418831.jpg);
+    grid-row: 3/5;
+}
+.element--16 {
+    background-image: url(/intro_proyecto-final/image/pexels-francesco-ungaro-1671325.jpg);
+    grid-row: 5/6;
+}
+.element--17 {
+    background-image: url(/intro_proyecto-final/image/pexels-lumn-167698.jpg);
+    grid-row: 2/4;
+}
+.element--18 {
+    background-image: url(/intro_proyecto-final/image/pexels-deva-darshan-1173777.jpg);
+    grid-row: 4/6;
+}
+.element--19 {
+    background-image: url(/intro_proyecto-final/image/pexels-veeterzy-38136.jpg);
+    grid-row: 1/2;
+}
+.element--20 {
+    background-image: url(/intro_proyecto-final/image/pexels-veeterzy-38136.jpg);
+    grid-row: 1/2;
 }
